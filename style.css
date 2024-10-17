@@ -183,7 +183,7 @@ section {
     padding: 10px 15px;
     background-color: #ddd;
     text-decoration: none;
-    color: #cc3300;
+    color: black;
     border-radius: 5px;
 }
 
@@ -200,7 +200,7 @@ section {
     font-size: 4.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: black;
 }
 
 .page-1 p {
@@ -208,7 +208,7 @@ section {
     margin-top: 20px;
     margin-bottom: 40px;
     line-height: 1.6;
-    color: #ffffff;
+    color: black;
 }
 
 /* General container styles */
