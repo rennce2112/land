@@ -131,7 +131,7 @@ section {
     opacity: 1;
 }
 #page1 {
-    background-image: url("photo/bk.jpg");
+    background-image: url("../photo/bk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
