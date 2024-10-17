@@ -265,13 +265,17 @@ section {
     margin-bottom: 10px;
 }
 
+.more_info{
+    display: grid;
+    width: 40%;
+    font-size: smaller;
+}
 .extra-info, .extra-info1 {
     background-color: #ffcc99;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 70%;
-    max-width: 600px;
+
     margin: 20px auto;
     text-align: center;
 }
