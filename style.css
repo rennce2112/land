@@ -289,14 +289,14 @@ section {
 .animate-fade-in {
     opacity: 0;
     transform: translateY(50px);
-    animation: fadeIn 3s forwards;
+    animation: fadeIn 0.1s forwards;
 }
 
 .animate-fade-up {
     opacity: 0;
     transform: translateY(50px);
-    animation: fadeUp 3s forwards;
-    animation-delay: 5s;
+    animation: fadeUp 1s forwards;
+    animation-delay: 0.50s;
 }
 @keyframes fadeOut {
     to {
@@ -320,26 +320,26 @@ section {
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    .profile-card, .extra-info, .extra-info1 {
-        width: 90%;
+    .profile-card, .more_info, .extra-info, .extra-info1 {
+        width: 70%;
     }
 
     .photo {
-        width: 50vw;
-        height: 50vw;
+        width: 30vw;
+        height: 30vw;
         max-width: 150px;
         max-height: 150px;
     }
 }
 
 @media (max-width: 480px) {
-    .profile-card, .extra-info, .extra-info1 {
-        width: 95%;
+    .profile-card,.more_info, .extra-info, .extra-info1 {
+        width: 75%;
     }
 
     .photo {
-        width: 60vw;
-        height: 60vw;
+        width: 40vw;
+        height: 40vw;
         max-width: 120px;
         max-height: 120px;
     }
