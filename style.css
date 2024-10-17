@@ -213,9 +213,9 @@ section {
 
 /* General container styles */
 .profile-grid {
-    margin-top: 65px;
+    
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:70%;
     gap: 20px;
     width: 100%;
     height: auto;
@@ -267,9 +267,14 @@ section {
 
 .more_info{
     display: grid;
-    width: 40%;
-    font-size: smaller;
+    grid-template-columns:1fr;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
+
 .extra-info, .extra-info1 {
     background-color: #ffcc99;
     border-radius: 10px;
@@ -321,7 +326,7 @@ section {
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .profile-card, .more_info, .extra-info, .extra-info1 {
-        width: 70%;
+        width: 100%;
     }
 
     .photo {
@@ -334,7 +339,7 @@ section {
 
 @media (max-width: 480px) {
     .profile-card,.more_info, .extra-info, .extra-info1 {
-        width: 75%;
+        width: 95%;
     }
 
     .photo {
