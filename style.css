@@ -131,7 +131,7 @@ section {
     opacity: 1;
 }
 #page1 {
-    background-image: url("/photo/bk.jpg");
+    background-image: url("photo/bk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -483,7 +483,7 @@ section {
     height: 100vh;
     position: fixed;
 }
-/* @media (max-width: 500px){
+@media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
@@ -532,4 +532,4 @@ section {
     animation: land-right linear;
     animation-timeline:view() ;
     animation-range: entry 0% cover 80%;
-} */
+} 
